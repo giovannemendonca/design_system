@@ -8,6 +8,13 @@ export default {
     src: 'https://github.com/giovannemendonca.png',
     alt: 'Giovanne Mendonça',
   },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text',
+      },
+    },
+  },
 } as Meta<AvatarProps>
 
 export const Primary: StoryObj = {

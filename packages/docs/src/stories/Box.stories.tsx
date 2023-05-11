@@ -3,6 +3,13 @@ import { Box, BoxProps, Text } from '@ignite-ui/react'
 
 export default {
   title: 'Surfaces/Box',
+  argTypes: {
+    children: {
+      control: {
+        type: null,
+      },
+    },
+  },
   component: Box,
   args: {
     children: (
