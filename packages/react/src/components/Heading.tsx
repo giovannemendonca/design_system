@@ -1,7 +1,7 @@
 import { ComponentProps, ElementType } from 'react'
 import { styled } from '../styles'
 
-export const Heading = styled('p', {
+export const Heading = styled('h2', {
   fontFamily: '$default',
   lineHeight: '$shorter',
   margin: 0,
