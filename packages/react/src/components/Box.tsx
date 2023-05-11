@@ -8,6 +8,7 @@ export const Box = styled('div', {
   border: 'solid 1px $gray600',
 })
 
+// Giovanne
 export interface BoxProps extends ComponentProps<typeof Box> {
   as?: ElementType
 }
