@@ -14,5 +14,14 @@ const config = {
   docs: {
     autodocs: "tag",
   },
+  features: {
+    "storyStoreV7": true
+  },
+  viteFinal: (config, {configType}) => {
+    if(configType === 'PRODUCTION'){
+      config.base = 'design_system'
+    }
+    return
+  }
 };
 export default config;
